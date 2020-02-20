@@ -70,7 +70,7 @@ const UsersCardGrid = (props) => (
             </CardBody>
             <CardFooter className="bt-0 text-center">
                 <span>
-                    <span className="mr-3">
+                    <span className="ml-3">
                         <i className="fa fa-user-o mr-1"></i> <span className="text-inverse">233</span> 
                     </span>
                     <span>

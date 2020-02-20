@@ -89,7 +89,7 @@ const NavbarMessages = (props) => (
 
             <ExtendedDropdown.Section className="text-center" tag={ ExtendedDropdown.Link } to="/apps/inbox">
                 View All
-                <i className="fa fa-angle-right fa-fw ml-2" />
+                <i className="fa fa-angle-right fa-fw mr-2" />
             </ExtendedDropdown.Section>
         </ExtendedDropdown>
     </UncontrolledDropdown>

@@ -573,7 +573,7 @@ export class WizardExample extends React.Component {
                         <div className="d-flex">
                             {
                                 currentStep !== sequence[0] && (
-                                    <Button onClick={() => {this._prevStep()}} color="link" className='mr-3'>
+                                    <Button onClick={() => {this._prevStep()}} color="link" className='ml-3'>
                                         <i className='fa fa-angle-left mr-2'></i>
                                         Previous
                                     </Button>
@@ -583,7 +583,7 @@ export class WizardExample extends React.Component {
                                 currentStep !== sequence[sequence.length - 1] && (
                                     <Button color='primary' onClick={() => {this._nextStep()}} className="ml-auto px-4">
                                         Next
-                                        <i className='fa fa-angle-right ml-2'></i>
+                                        <i className='fa fa-angle-right mr-2'></i>
                                     </Button>
                                 )
                             }

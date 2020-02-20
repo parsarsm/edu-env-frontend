@@ -101,7 +101,7 @@ const ProjectsDashboard = () => (
                     <span>All Tasks</span>
                 </div>
                 <Media>
-                    <Media left className="mr-3">
+                    <Media left className="ml-3">
                         <TinyDonutChart />
                     </Media>
                     <Media body>
@@ -125,7 +125,7 @@ const ProjectsDashboard = () => (
                     <span>All Projects</span>
                 </div>
                 <Media>
-                    <Media left className="mr-3">
+                    <Media left className="ml-3">
                         <TinyDonutChartAllProjects />
                     </Media>
                     <Media body>
@@ -219,7 +219,7 @@ const ProjectsDashboard = () => (
                         </ListGroupItem>
                         <ListGroupItem action tag={ Link } to="/apps/tasks/list" className="text-center">
                             View All Tasks
-                            <i className="fa fa-angle-right ml-2"></i>
+                            <i className="fa fa-angle-right mr-2"></i>
                         </ListGroupItem>
                     </ListGroup>
                 </Card>
@@ -272,7 +272,7 @@ const ProjectsDashboard = () => (
                     <ListGroup flush>
                         <ListGroupItem action tag={ Link } to="/pages/timeline" className="text-center">
                             Timeline Details
-                            <i className="fa fa-angle-right ml-2"></i>
+                            <i className="fa fa-angle-right mr-2"></i>
                         </ListGroupItem>
                     </ListGroup>
                 </Card>

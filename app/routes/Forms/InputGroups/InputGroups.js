@@ -473,7 +473,7 @@ const InputGroups = () => (
                                             <Input placeholder="Right Addon..." id="rightButton" />
                                             <InputGroupAddon addonType="append">
                                                  <Button color="secondary" outline>
-                                                    Add <i className="fa fa-angle-right ml-2"></i>
+                                                    Add <i className="fa fa-angle-right mr-2"></i>
                                                  </Button>
                                             </InputGroupAddon>
                                         </InputGroup>
@@ -495,7 +495,7 @@ const InputGroups = () => (
                                             <Input placeholder="Amount..." id="bothButtons" />
                                             <InputGroupAddon addonType="append">
                                                  <Button color="secondary" outline>
-                                                    Add <i className="fa fa-angle-right ml-2"></i>
+                                                    Add <i className="fa fa-angle-right mr-2"></i>
                                                  </Button>
                                             </InputGroupAddon>
                                         </InputGroup>

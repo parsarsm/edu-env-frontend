@@ -43,7 +43,7 @@ const ChatLeftNav = () => (
                 <NavItem>
                     <NavLink href="/chat" active>
                         <Media>
-                            <Media left className="align-self-start mr-3">
+                            <Media left className="align-self-start ml-3">
                                 <Avatar.Image
                                     size="sm"
                                     src={ randomAvatar() }
@@ -75,7 +75,7 @@ const ChatLeftNav = () => (
                 <NavItem>
                     <NavLink href="/chat">
                         <Media>
-                            <Media left className="align-self-start mr-3">
+                            <Media left className="align-self-start ml-3">
                                 <Avatar.Image
                                     size="sm"
                                     src={ randomAvatar() }
@@ -107,7 +107,7 @@ const ChatLeftNav = () => (
                 <NavItem>
                     <NavLink href="/chat">
                         <Media>
-                            <Media left className="align-self-start mr-3">
+                            <Media left className="align-self-start ml-3">
                                 <Avatar.Image
                                     size="sm"
                                     src={ randomAvatar() }
@@ -157,7 +157,7 @@ const ChatLeftNav = () => (
                     <NavLink href="/chat">
                         <Media>
                             <Media left className="align-self-start mr-1">
-                                <span className="fa-stack fa-lg fa-fw d-flex align-self-center mr-3">
+                                <span className="fa-stack fa-lg fa-fw d-flex align-self-center ml-3">
                                     <i className="fa fa-circle fa-fw fa-stack-2x text-warning"></i>
                                     <i className="fa fa-exclamation fa-stack-1x fa-fw text-white"></i>
                                 </span> 
@@ -177,7 +177,7 @@ const ChatLeftNav = () => (
                     <NavLink href="/chat">
                         <Media>
                             <Media left className="align-self-start mr-1">
-                                <span className="fa-stack fa-lg fa-fw d-flex align-self-center mr-3">
+                                <span className="fa-stack fa-lg fa-fw d-flex align-self-center ml-3">
                                     <i className="fa fa-circle fa-fw fa-stack-2x text-danger"></i>
                                     <i className="fa fa-close fa-stack-1x fa-fw text-white"></i>
                                 </span> 
@@ -197,7 +197,7 @@ const ChatLeftNav = () => (
                     <NavLink href="/chat">
                         <Media>
                             <Media left className="align-self-start mr-1">
-                                <span className="fa-stack fa-lg fa-fw d-flex align-self-center mr-3">
+                                <span className="fa-stack fa-lg fa-fw d-flex align-self-center ml-3">
                                     <i className="fa fa-circle fa-fw fa-stack-2x text-success"></i>
                                     <i className="fa fa-check fa-stack-1x fa-fw text-white"></i>
                                 </span> 
@@ -217,7 +217,7 @@ const ChatLeftNav = () => (
                     <NavLink href="/chat">
                         <Media>
                             <Media left className="align-self-start mr-1">
-                                <span className="fa-stack fa-lg fa-fw d-flex align-self-center mr-3">
+                                <span className="fa-stack fa-lg fa-fw d-flex align-self-center ml-3">
                                     <i className="fa fa-circle fa-fw fa-stack-2x text-primary"></i>
                                     <i className="fa fa-info fa-stack-1x fa-fw text-white"></i>
                                 </span> 

@@ -22,7 +22,7 @@ const status = [
 const ChatLeft = (props) => (
     <React.Fragment>
         <Media className="mb-2">
-            <Media left className="mr-3">
+            <Media left className="ml-3">
                 <Avatar.Image
                     size="md"
                     src={ randomAvatar() }

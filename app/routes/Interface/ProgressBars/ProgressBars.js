@@ -533,7 +533,7 @@ const ProgressBars = () => (
                             <div className="d-flex justify-content-between">
                                 <span className="d-flex align-items-center mr-2">HDD</span>
                                 <Progress value="55" color="success" className="mt-1 w-100">55%</Progress>
-                                <span className="ml-2 text-inverse">34GB</span>
+                                <span className="mr-2 text-inverse">34GB</span>
                             </div>
                         </CardBody>
                     </Card>

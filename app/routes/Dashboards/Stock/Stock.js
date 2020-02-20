@@ -124,7 +124,7 @@ const Stock = () => (
                             <CardTitle>
                                 <h6>Nokia Corp. 
                                     <small>
-                                        <span className="text-success ml-2">
+                                        <span className="text-success mr-2">
                                             <i className="fa fa-caret-up mr-1"></i> 22.38
                                         </span> / 5.9%
                                     </small>

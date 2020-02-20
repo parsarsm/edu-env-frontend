@@ -550,10 +550,10 @@ const Images = () => (
                     </CardBody>
                     <CardFooter className="d-flex">
                         <div className="mr-auto">
-                            <span className="mr-3">
+                            <span className="ml-3">
                                 <i className="fa-heart fa mr-1"></i> 9
                             </span>
-                            <span className="mr-3">
+                            <span className="ml-3">
                                 <i className="fa-comment fa mr-1"></i> 37
                             </span>
                         </div>
@@ -579,7 +579,7 @@ const Images = () => (
                     <CardFooter className="d-flex">
                         <a href="#">
                             Read More 
-                            <i className="fa fa-angle-right ml-2"></i>
+                            <i className="fa fa-angle-right mr-2"></i>
                         </a>
                         <div className="align-self-center ml-auto">
                             <i className="fa-star-o fa"></i>
@@ -631,7 +631,7 @@ const Images = () => (
                     </CardBody>
                     <CardFooter className="d-flex">
                         <Media>
-                            <Media left middle className="mr-3">
+                            <Media left middle className="ml-3">
                                 <Avatar.Image
                                     size="md"
                                     src={ randomAvatar() }
@@ -684,7 +684,7 @@ const Images = () => (
                     <CardFooter className="d-flex">
                          <Button color="primary mr-auto">
                             Read More 
-                            <i className="fa fa-angle-right ml-2"></i>
+                            <i className="fa fa-angle-right mr-2"></i>
                          </Button>{' '}
                         <div className="align-self-center">
                             16 Min. Ago
@@ -802,7 +802,7 @@ const Images = () => (
                             <h6 className="mb-2">
                                 <a href="#">
                                     <span>{ faker.commerce.productName() }</span>
-                                    <span className="text-muted ml-2">
+                                    <span className="text-muted mr-2">
                                         #5.01
                                     </span>
                                 </a>
@@ -813,10 +813,10 @@ const Images = () => (
                         </span>
                         <div className="d-flex">
                             <div className="ml-auto">
-                                <span className="mr-3">
+                                <span className="ml-3">
                                     <i className="fa-heart fa mr-1"></i> 34
                                 </span>
-                                <span className="mr-3">
+                                <span className="ml-3">
                                     <i className="fa-comment fa mr-1"></i> 8
                                 </span>
                             </div>
@@ -845,7 +845,7 @@ const Images = () => (
                             <h6 className="mb-2">
                                 <a href="#">
                                     <span>{ faker.commerce.productName() }</span>
-                                    <span className="text-muted ml-2">
+                                    <span className="text-muted mr-2">
                                         #5.02
                                     </span>
                                 </a>
@@ -857,10 +857,10 @@ const Images = () => (
                     </CardImgOverlay>
                     <CardFooter className="d-flex">
                         <div>
-                            <span className="mr-3">
+                            <span className="ml-3">
                                 <i className="fa-heart fa mr-1"></i> 34
                             </span>
-                            <span className="mr-3">
+                            <span className="ml-3">
                                 <i className="fa-comment fa mr-1"></i> 8
                             </span>
                         </div>

@@ -142,7 +142,7 @@ const ProfileDetails = () => (
                             </NavItem>
                             <NavItem>
                                 <UncontrolledTabs.NavLink tabId="messages">
-                                    Messages <Badge pill color="secondary" className="ml-2">5</Badge>
+                                    Messages <Badge pill color="secondary" className="mr-2">5</Badge>
                                 </UncontrolledTabs.NavLink>
                             </NavItem>
                         </Nav>
@@ -255,7 +255,7 @@ const ProfileDetails = () => (
                                         </h6>
                                         <UncontrolledButtonDropdown className="align-self-center ml-auto">
                                             <DropdownToggle color="link" size="sm">
-                                                <i className="fa fa-gear"></i><i className="fa fa-angle-down ml-2" />
+                                                <i className="fa fa-gear"></i><i className="fa fa-angle-down mr-2" />
                                             </DropdownToggle>
                                             <DropdownMenu right>
                                                 <DropdownItem>

@@ -104,7 +104,7 @@ const ProjectsLeftNav = () => (
                 <NavItem>
                     <NavLink href="#" className="d-flex">
                         <Media>
-                            <Media left middle className="mr-3 align-self-center">
+                            <Media left middle className="ml-3 align-self-center">
                                 <Avatar.Image
                                     size="md"
                                     src={ randomAvatar() }
@@ -119,13 +119,13 @@ const ProjectsLeftNav = () => (
                                 </span>
                             </Media>
                         </Media>
-                        <i className="fa fa-fw fa-circle text-success ml-auto align-self-center ml-2"></i>
+                        <i className="fa fa-fw fa-circle text-success ml-auto align-self-center mr-2"></i>
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink href="#" className="d-flex">
                         <Media>
-                            <Media left middle className="mr-3 align-self-center">
+                            <Media left middle className="ml-3 align-self-center">
                                 <Avatar.Image
                                     size="md"
                                     src={ randomAvatar() }
@@ -140,13 +140,13 @@ const ProjectsLeftNav = () => (
                                 </span>
                             </Media>
                         </Media>
-                        <i className="fa fa-fw fa-circle text-warning ml-auto align-self-center ml-2"></i>
+                        <i className="fa fa-fw fa-circle text-warning ml-auto align-self-center mr-2"></i>
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink href="#" className="d-flex">
                         <Media>
-                            <Media left middle className="mr-3 align-self-center">
+                            <Media left middle className="ml-3 align-self-center">
                                 <Avatar.Image
                                     size="md"
                                     src={ randomAvatar() }
@@ -161,7 +161,7 @@ const ProjectsLeftNav = () => (
                                 </span>
                             </Media>
                         </Media>
-                        <i className="fa fa-fw fa-circle text-danger ml-auto align-self-center ml-2"></i>
+                        <i className="fa fa-fw fa-circle text-danger ml-auto align-self-center mr-2"></i>
                     </NavLink>
                 </NavItem>
                 <NavItem>

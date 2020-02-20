@@ -65,7 +65,7 @@ const TrTableGalleryList = (props) => (
             </td>
             <td className="align-middle">
                 <Media>
-                    <Media left className="align-self-center mr-3">
+                    <Media left className="align-self-center ml-3">
                         <Avatar.Image
                             size="md"
                             src={ randomAvatar() }

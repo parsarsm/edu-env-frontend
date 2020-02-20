@@ -18,7 +18,7 @@ const NavbarNavigation = ({ accent, pills, ...navbarProps }) => (
     <Nav navbar accent={ accent } pills={ pills } { ...navbarProps }>
         <NavItem>
             <NavLink tag={ Link } to="/interface/navbars">
-                <span className={ classNames({ 'mr-3': !(pills || accent) }) }>
+                <span className={ classNames({ 'ml-3': !(pills || accent) }) }>
                     <i className="fa fa-fw fa-home d-none d-md-inline"></i>
                     <span className="d-md-none">
                         Home

@@ -573,7 +573,7 @@ const Alerts = () => (
                         </h6>
                         <Alert color="primary">
                             <Media>
-                                <Media left middle className="mr-3">
+                                <Media left middle className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-stack-2x alert-bg-icon"></i>
                                         <i className="fa fa-caret-right fa-stack-1x fa-inverse alert-icon"></i>
@@ -603,7 +603,7 @@ const Alerts = () => (
                         </h6>
                         <Alert color="danger">
                             <Media>
-                                <Media left middle className="mr-3">
+                                <Media left middle className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-fw fa-stack-2x alert-bg-icon"></i>
                                         <i className="fa fa-close fa-stack-1x fa-inverse alert-icon"></i>
@@ -633,7 +633,7 @@ const Alerts = () => (
                         </h6>
                         <Alert color="info">
                             <Media>
-                                <Media left middle className="mr-3">
+                                <Media left middle className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-fw fa-stack-2x alert-bg-icon"></i>
                                         <i className="fa fa-info fa-stack-1x fa-inverse alert-icon"></i>
@@ -667,7 +667,7 @@ const Alerts = () => (
                         </h6>
                         <Alert color="warning">
                             <Media>
-                                <Media left middle className="mr-3">
+                                <Media left middle className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-fw fa-stack-2x alert-bg-icon"></i>
                                         <i className="fa fa-exclamation fa-stack-1x fa-inverse alert-icon"></i>
@@ -697,7 +697,7 @@ const Alerts = () => (
                         </h6>
                         <Alert color="success">
                             <Media>
-                                <Media left middle className="mr-3">
+                                <Media left middle className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-fw fa-stack-2x alert-bg-icon"></i>
                                         <i className="fa fa-check fa-stack-1x fa-inverse alert-icon"></i>
@@ -727,7 +727,7 @@ const Alerts = () => (
                         </h6>
                         <Alert color="dark">
                             <Media>
-                                <Media left middle className="mr-3">
+                                <Media left middle className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-fw fa-stack-2x"></i>
                                         <i className="fa fa-question fa-stack-1x fa-inverse alert-icon"></i>

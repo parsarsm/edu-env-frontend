@@ -1187,7 +1187,7 @@ const Buttons = () => (
                             </p>
                             <Button outline color="secondary">
                                 Right Position
-                                <i className="fa fa-envelope-o ml-2"></i>
+                                <i className="fa fa-envelope-o mr-2"></i>
                             </Button>{' '}
                         </CardBody>
                     </Card>

@@ -11,7 +11,7 @@ import {
 const TasksMedia = (props) => (
     <React.Fragment>
         <Media>
-            <Media left className="mr-3">
+            <Media left className="ml-3">
                 <CustomInput className="pt-0 mt-0" type="checkbox" id={`taskMedia-${ props.id }` } label="" />
             </Media>
             <Media body>

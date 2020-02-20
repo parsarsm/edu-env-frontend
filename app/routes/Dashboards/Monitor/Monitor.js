@@ -62,12 +62,12 @@ const Monitor = () => (
                             <div className="d-flex justify-content-between">
                                 <span className="d-flex align-items-center mr-2">Core 0</span>
                                 <Progress value="44" className="mt-2 w-50" style={{height: "5px"}} />
-                                <span className="ml-2 text-inverse">86%</span>
+                                <span className="mr-2 text-inverse">86%</span>
                             </div>
                             <div className="d-flex justify-content-between">
                                 <span className="d-flex align-items-center mr-2">Core 1</span>
                                 <Progress value="74" className="mt-2 w-50" style={{height: "5px"}} />
-                                <span className="ml-2 text-inverse">40%</span>
+                                <span className="mr-2 text-inverse">40%</span>
                             </div>
                         </div>
                         <div className="mb-4">
@@ -77,7 +77,7 @@ const Monitor = () => (
                             </div>
                             <div className="mb-3 d-flex">
                                 <TinyDonutChart />
-                                <div className="ml-2 align-self-center">
+                                <div className="mr-2 align-self-center">
                                     <h2 className="mb-0">52 <small>GB</small></h2>
                                     <span>Total Memory</span>
                                 </div>

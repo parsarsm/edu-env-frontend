@@ -20,7 +20,7 @@ const status = [
 
 const brand = [
     <Media key="facebook">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-facebook"></i>
                 <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -36,7 +36,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="twitter">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-twitter"></i>
                 <i className="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -52,7 +52,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="linkedin">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-linkedin"></i>
                 <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -68,7 +68,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="foursquare">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-foursquare"></i>
                 <i className="fa fa-foursquare fa-stack-1x fa-inverse"></i>
@@ -84,7 +84,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="lastfm">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-lastfm"></i>
                 <i className="fa fa-lastfm fa-stack-1x fa-inverse"></i>
@@ -100,7 +100,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="paypal">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-paypal"></i>
                 <i className="fa fa-paypal fa-stack-1x fa-inverse"></i>
@@ -116,7 +116,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="amazon">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-amazon"></i>
                 <i className="fa fa-amazon fa-stack-1x fa-inverse"></i>
@@ -132,7 +132,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="skype">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-skype"></i>
                 <i className="fa fa-skype fa-stack-1x fa-inverse"></i>
@@ -148,7 +148,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="spotify">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-spotify"></i>
                 <i className="fa fa-spotify fa-stack-1x fa-inverse"></i>
@@ -164,7 +164,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="pinterest">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-pinterest"></i>
                 <i className="fa fa-pinterest fa-stack-1x fa-inverse"></i>
@@ -180,7 +180,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="windows">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-windows"></i>
                 <i className="fa fa-windows fa-stack-1x fa-inverse"></i>
@@ -196,7 +196,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="android">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-android"></i>
                 <i className="fa fa-android fa-stack-1x fa-inverse"></i>
@@ -212,7 +212,7 @@ const brand = [
         </Media>
     </Media>,
     <Media key="medium">
-        <Media left className="align-self-center mr-3">
+        <Media left className="align-self-center ml-3">
             <span className="fa-stack fa-lg">
                 <i className="fa fa-stop fa-stack-2x text-medium"></i>
                 <i className="fa fa-medium fa-stack-1x fa-inverse"></i>

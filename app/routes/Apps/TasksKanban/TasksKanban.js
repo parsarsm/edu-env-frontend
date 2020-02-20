@@ -44,7 +44,7 @@ const TasksKanban = () => (
                                 <div className="mb-4">
                                     <CardTitle tag="h6">
                                         To-Do
-                                        <Badge pill color="secondary" className="ml-2">
+                                        <Badge pill color="secondary" className="mr-2">
                                             3
                                         </Badge>
                                     </CardTitle>
@@ -98,7 +98,7 @@ const TasksKanban = () => (
                                 <div className="mb-4">
                                     <CardTitle tag="h6">
                                         Doing
-                                        <Badge pill color="secondary" className="ml-2">
+                                        <Badge pill color="secondary" className="mr-2">
                                             2
                                         </Badge>
                                     </CardTitle>
@@ -151,7 +151,7 @@ const TasksKanban = () => (
                                 <div className="mb-4">
                                     <CardTitle tag="h6">
                                         Done
-                                        <Badge pill color="secondary" className="ml-2">
+                                        <Badge pill color="secondary" className="mr-2">
                                             1
                                         </Badge>
                                     </CardTitle>

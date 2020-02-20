@@ -16,7 +16,7 @@ import { LogoThemed } from './../../routes/components/LogoThemed/LogoThemed';
 export const DefaultNavbar = () => (
     <Navbar light expand="xs" fluid>
         <Nav navbar>
-            <NavItem className="mr-3">
+            <NavItem className="ml-3">
                 <SidebarTrigger/>
             </NavItem>
             <NavItem className="navbar-brand d-lg-none">
@@ -46,8 +46,8 @@ export const DefaultNavbar = () => (
         </Nav>
         <Nav navbar className="ml-auto">
             <NavbarActivityFeed />
-            <NavbarMessages className="ml-2" />
-            <NavbarUser className="ml-2" />
+            <NavbarMessages className="mr-2" />
+            <NavbarUser className="mr-2" />
         </Nav>
     </Navbar>
 );

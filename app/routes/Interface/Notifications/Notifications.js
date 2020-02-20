@@ -45,7 +45,7 @@ const initialState = {
 // eslint-disable-next-line react/prop-types
 const contentSuccess = ({ closeToast }) => (
     <Media>
-        <Media middle left className="mr-3">
+        <Media middle left className="ml-3">
             <i className="fa fa-fw fa-2x fa-check"></i>
         </Media>
         <Media body>
@@ -59,7 +59,7 @@ const contentSuccess = ({ closeToast }) => (
                 <Button color="success" onClick={() => { closeToast }} >
                     I Understand
                 </Button>
-                <Button color="link" onClick={() => { closeToast }}  className="ml-2 text-success">
+                <Button color="link" onClick={() => { closeToast }}  className="mr-2 text-success">
                     Cancel
                 </Button>
             </div>
@@ -69,7 +69,7 @@ const contentSuccess = ({ closeToast }) => (
 // eslint-disable-next-line react/prop-types
 const contentError = ({ closeToast }) => (
     <Media>
-        <Media middle left className="mr-3">
+        <Media middle left className="ml-3">
             <i className="fa fa-fw fa-2x fa-close"></i>
         </Media>
         <Media body>
@@ -83,7 +83,7 @@ const contentError = ({ closeToast }) => (
                 <Button color="danger" onClick={() => { closeToast }}>
                     I Understand
                 </Button>
-                <Button color="link" onClick={() => { closeToast }}  className="ml-2 text-danger">
+                <Button color="link" onClick={() => { closeToast }}  className="mr-2 text-danger">
                     Cancel
                 </Button>
             </div>
@@ -93,7 +93,7 @@ const contentError = ({ closeToast }) => (
 // eslint-disable-next-line react/prop-types
 const contentInfo = ({ closeToast }) => (
     <Media>
-        <Media middle left className="mr-3">
+        <Media middle left className="ml-3">
             <i className="fa fa-fw fa-2x fa-info"></i>
         </Media>
         <Media body>
@@ -107,7 +107,7 @@ const contentInfo = ({ closeToast }) => (
                 <Button color="primary" onClick={() => { closeToast }} >
                     I Understand
                 </Button>
-                <Button color="link" onClick={() => { closeToast }}  className="ml-2 text-primary">
+                <Button color="link" onClick={() => { closeToast }}  className="mr-2 text-primary">
                     Cancel
                 </Button>
             </div>
@@ -117,7 +117,7 @@ const contentInfo = ({ closeToast }) => (
 // eslint-disable-next-line react/prop-types
 const contentWarning = ({ closeToast }) => (
     <Media>
-        <Media middle left className="mr-3">
+        <Media middle left className="ml-3">
             <i className="fa fa-fw fa-2x fa-exclamation"></i>
         </Media>
         <Media body>
@@ -131,7 +131,7 @@ const contentWarning = ({ closeToast }) => (
                 <Button color="warning" onClick={() => { closeToast }} className="text-white">
                     I Understand
                 </Button>
-                <Button color="link" onClick={() => { closeToast }}  className="ml-2 text-warning">
+                <Button color="link" onClick={() => { closeToast }}  className="mr-2 text-warning">
                     Cancel
                 </Button>
             </div>
@@ -141,7 +141,7 @@ const contentWarning = ({ closeToast }) => (
 // eslint-disable-next-line react/prop-types
 const contentDefault = ({ closeToast }) => (
     <Media>
-        <Media middle left className="mr-3">
+        <Media middle left className="ml-3">
             <i className="fa fa-fw fa-2x fa-question"></i>
         </Media>
         <Media body>
@@ -155,7 +155,7 @@ const contentDefault = ({ closeToast }) => (
                 <Button color="secondary" onClick={() => { closeToast }} className="text-white">
                     I Understand
                 </Button>
-                <Button color="link" onClick={() => { closeToast }}  className="ml-2 text-secondary">
+                <Button color="link" onClick={() => { closeToast }}  className="mr-2 text-secondary">
                     Cancel
                 </Button>
             </div>
@@ -216,10 +216,10 @@ export class Notifications extends React.Component {
                             <Button color="primary" onClick={ this._showHandler }>
                                 Show Toast
                             </Button>
-                            <Button color="link" onClick={ this._clearHandler } className="ml-2">
+                            <Button color="link" onClick={ this._clearHandler } className="mr-2">
                                 Clear All
                             </Button>
-                            <Button color="link" onClick={ this._resetHandler } className="ml-2">
+                            <Button color="link" onClick={ this._resetHandler } className="mr-2">
                                 Reset
                             </Button>
                         </div>

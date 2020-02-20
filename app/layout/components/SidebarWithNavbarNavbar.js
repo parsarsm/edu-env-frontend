@@ -41,15 +41,15 @@ export const SidebarWithNavbarNavbar = () => (
                     </Nav>
 
                     <h1
-                        className="h5 mb-0 mr-auto ml-2 d-none d-lg-block"
+                        className="h5 mb-0 mr-auto mr-2 d-none d-lg-block"
                     >
                         Sidebar with Navbar
                     </h1>
 
                     <Nav navbar className="ml-auto">
                         <NavbarActivityFeed />
-                        <NavbarMessages className="ml-2" />
-                        <NavbarUser className="ml-2" />
+                        <NavbarMessages className="mr-2" />
+                        <NavbarUser className="mr-2" />
                     </Nav>
                 </Navbar>
                 { /*    Second Navbar    */}

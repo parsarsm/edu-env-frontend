@@ -14,7 +14,7 @@ const ProfileHeader = () => (
     <React.Fragment>
         { /* START Header */}
         <Media className="mb-3">
-            <Media left middle className="mr-3 align-self-center">
+            <Media left middle className="ml-3 align-self-center">
               <Avatar.Image
                 size="lg"
                 src={ randomAvatar() }

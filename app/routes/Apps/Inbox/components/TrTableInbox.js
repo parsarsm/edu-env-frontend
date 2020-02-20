@@ -51,7 +51,7 @@ const TrTableInbox = (props) => (
             </td>
             <td className="align-middle">
                 <Media>
-                    <Media left className="d-flex align-self-center mr-3">
+                    <Media left className="d-flex align-self-center ml-3">
                         <div className="mr-2">
                             <a href="#" id="tooltipAddToFavorites">
                                 <i className="fa fa-fw fa-star-o"></i>
@@ -96,7 +96,7 @@ const TrTableInbox = (props) => (
                 <br />
                 <Badge pill color={ randomArray(tag) }>
                     { faker.commerce.department() }
-                </Badge> <i className="fa fa-paperclip ml-2"></i>
+                </Badge> <i className="fa fa-paperclip mr-2"></i>
             </td>
             <td className="align-middle text-right">
                 30-Jun-2014<br />

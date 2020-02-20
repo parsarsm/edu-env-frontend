@@ -30,19 +30,19 @@ const avatarStatus = [
 const prioStatus = [
         <React.Fragment key="1">
             <i className="fa fa-circle text-success mr-2"></i>
-            Small<i className="fa fa-angle-down ml-2" />
+            Small<i className="fa fa-angle-down mr-2" />
         </React.Fragment>,
         <React.Fragment key="2">
             <i className="fa fa-circle text-primary mr-2"></i>
-            Normal<i className="fa fa-angle-down ml-2" />
+            Normal<i className="fa fa-angle-down mr-2" />
         </React.Fragment>,
         <React.Fragment key="3">
             <i className="fa fa-circle text-warning mr-2"></i>
-            High<i className="fa fa-angle-down ml-2" />
+            High<i className="fa fa-angle-down mr-2" />
         </React.Fragment>,
         <React.Fragment key="3">
             <i className="fa fa-circle text-danger mr-2"></i>
-            Big<i className="fa fa-angle-down ml-2" />
+            Big<i className="fa fa-angle-down mr-2" />
         </React.Fragment>
 ];
 
@@ -101,7 +101,7 @@ const TrTableTasksList = (props) => (
                 <Avatar.Image
                     size="md"
                     src={ randomAvatar() }
-                    className="mr-3"
+                    className="ml-3"
                     addOns={[
                         <AvatarAddOn.Icon 
                             className="fa fa-circle"
@@ -122,7 +122,7 @@ const TrTableTasksList = (props) => (
             <td className="align-middle text-right">
                 <UncontrolledButtonDropdown className="align-self-center ml-auto">
                     <DropdownToggle color="link" size="sm">
-                        <i className="fa fa-gear" /><i className="fa fa-angle-down ml-2" />
+                        <i className="fa fa-gear" /><i className="fa fa-angle-down mr-2" />
                     </DropdownToggle>
                     <DropdownMenu right>
                         <DropdownItem>

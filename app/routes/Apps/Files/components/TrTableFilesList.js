@@ -79,7 +79,7 @@ const TrTableFilesList = () => (
             <td className="align-middle text-right">
                 <UncontrolledButtonDropdown>
                     <DropdownToggle color="link">
-                        <i className="fa fa-gear" /><i className="fa fa-angle-down ml-2" />
+                        <i className="fa fa-gear" /><i className="fa fa-angle-down mr-2" />
                     </DropdownToggle>
                     <DropdownMenu right>
                         <DropdownItem>

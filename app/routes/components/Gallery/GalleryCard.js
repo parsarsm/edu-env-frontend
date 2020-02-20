@@ -63,7 +63,7 @@ const GalleryCard = (props) => (
                     </Media>
                 </Media>
                 <Media className="mb-3">
-                    <Media left className="align-self-center mr-3">
+                    <Media left className="align-self-center ml-3">
                         <Avatar.Image
                             size="md"
                             src={ randomAvatar() }

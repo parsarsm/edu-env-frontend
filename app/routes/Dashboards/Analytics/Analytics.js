@@ -105,7 +105,7 @@ export class Analytics extends React.Component {
                                 <UncontrolledButtonDropdown className="ml-auto flex-column">
                                     <DropdownToggle color="link" className="text-left pl-0 text-decoration-none mb-2">
                                         <i className="fa fa-globe text-body mr-2"></i>
-                                        www.webkom.co<i className="fa fa-angle-down text-body ml-2" />
+                                        www.webkom.co<i className="fa fa-angle-down text-body mr-2" />
                                     </DropdownToggle>
                                     <div className="small">
                                         Last 30 Days vs Previous Period
@@ -132,7 +132,7 @@ export class Analytics extends React.Component {
                                 <UncontrolledButtonDropdown className="ml-auto flex-column">
                                     <DropdownToggle color="link" className="text-left pl-0 text-decoration-none mb-2">
                                         <i className="fa fa-calendar-o text-body mr-2"></i>
-                                        Last Month<i className="fa fa-angle-down text-body ml-2" />
+                                        Last Month<i className="fa fa-angle-down text-body mr-2" />
                                     </DropdownToggle>
                                     <div className="small">
                                         Jan 01, 2017 to Jan 31, 2017
@@ -164,7 +164,7 @@ export class Analytics extends React.Component {
                                 <UncontrolledButtonDropdown className="ml-auto flex-column">
                                     <DropdownToggle color="link" className="text-left pl-0 text-decoration-none mb-2">
                                         <i className="fa fa-calendar-o text-body mr-2"></i>
-                                        Previous Period<i className="fa fa-angle-down text-body ml-2" />
+                                        Previous Period<i className="fa fa-angle-down text-body mr-2" />
                                     </DropdownToggle>
                                     <div className="small">
                                         Jan 01, 2017 to Jan 31, 2017
@@ -548,7 +548,7 @@ export class Analytics extends React.Component {
                             <Card>
                                 <CardHeader className="d-flex bb-0 pt-3 bg-none">
                                     <Media>
-                                        <Media left className="mr-3">
+                                        <Media left className="ml-3">
                                             <i className="fa fa-ellipsis-v"></i> 
                                         </Media>
                                         <Media body>

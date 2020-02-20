@@ -92,7 +92,7 @@ const Cards = () => (
                         <CardBody>
                             <CardTitle tag="h6">
                                 Default Small Text
-                                <Badge className="ml-2" color="primary">
+                                <Badge className="mr-2" color="primary">
                                     3
                                 </Badge>
                             </CardTitle>
@@ -107,7 +107,7 @@ const Cards = () => (
                         <CardBody>
                             <CardTitle tag="h6" className="d-flex">
                                 Default Small Text
-                                <Badge className="ml-2 ml-auto" color="primary">
+                                <Badge className="mr-2 ml-auto" color="primary">
                                     Updated
                                 </Badge>
                             </CardTitle>
@@ -136,7 +136,7 @@ const Cards = () => (
                         <CardBody>
                             <CardTitle tag="h6">
                                 Header Right Icon 
-                                <i className="fa fa-gear ml-2"></i>
+                                <i className="fa fa-gear mr-2"></i>
                             </CardTitle>
                             <CardTextDemo 
                                 cardNo="1.06"
@@ -190,7 +190,7 @@ const Cards = () => (
                         <CardBody>
                             <CardTitle tag="h6" className="d-flex">
                                 Header Right Side Pill
-                                <Badge className="ml-2 ml-auto" color="primary" pill>
+                                <Badge className="mr-2 ml-auto" color="primary" pill>
                                     New
                                 </Badge>
                             </CardTitle>
@@ -205,7 +205,7 @@ const Cards = () => (
                         <CardBody>
                             <CardTitle tag="h6">
                                 Header Left Pill
-                                <Badge className="ml-2" color="primary" pill>
+                                <Badge className="mr-2" color="primary" pill>
                                     4
                                 </Badge>
                             </CardTitle>
@@ -507,7 +507,7 @@ const Cards = () => (
                                     </Button>
                                     <Button outline>
                                         Next
-                                        <i className="fa fa-angle-right ml-2"></i>
+                                        <i className="fa fa-angle-right mr-2"></i>
                                     </Button>
                                 </ButtonGroup>
                             </div>
@@ -524,7 +524,7 @@ const Cards = () => (
                                 <CardTitle tag="h6" className="mb-0 align-self-center">
                                     Buttons Left
                                 </CardTitle>
-                                <Button outline size="sm" className="ml-2">
+                                <Button outline size="sm" className="mr-2">
                                     Add
                                 </Button>
                             </div>
@@ -718,7 +718,7 @@ const Cards = () => (
                                     Button Right Icon-Right
                                 </CardTitle>
                                 <Button outline size="sm" className="ml-auto">
-                                    Button<i className="fa fa-copy ml-2"></i>
+                                    Button<i className="fa fa-copy mr-2"></i>
                                 </Button>
                             </div>
                             <CardTextDemo 
@@ -952,7 +952,7 @@ const Cards = () => (
                                     Right Checkbox Inline
                                 </CardTitle>
                                 <div className="ml-auto d-flex">
-                                    <CustomInput type="checkbox" className="mr-3" id="rightCheckbox1" label="1" />
+                                    <CustomInput type="checkbox" className="ml-3" id="rightCheckbox1" label="1" />
                                     <CustomInput type="checkbox" id="rightCheckbox2" label="2" />
                                 </div>
                             </div>
@@ -1028,7 +1028,7 @@ const Cards = () => (
                                     Right Radio Inline
                                 </CardTitle>
                                 <div className="ml-auto d-flex">
-                                    <CustomInput type="radio" className="mr-3" name="rightRadioInline" id="rightRadioYes" label="Yes" />
+                                    <CustomInput type="radio" className="ml-3" name="rightRadioInline" id="rightRadioYes" label="Yes" />
                                     <CustomInput type="radio" name="rightRadioInline" id="rightRadioNo" label="No" />
                                 </div>
                             </div>

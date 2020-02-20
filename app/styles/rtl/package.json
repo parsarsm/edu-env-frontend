@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      "@owczar/dashboard-style--airframe@^0.1.13",
+      "/home/parsa/term6/edu/airframe-react"
+    ]
+  ],
+  "_from": "@owczar/dashboard-style--airframe@>=0.1.13 <0.2.0",
+  "_hasShrinkwrap": false,
+  "_id": "@owczar/dashboard-style--airframe@0.1.23",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@owczar/dashboard-style--airframe",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dashboard-style--airframe_0.1.23_1568971630565_0.2550944743359502"
+  },
+  "_npmUser": {
+    "email": "tomasz.owczarczyk@gmail.com",
+    "name": "owczar"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "@owczar/dashboard-style--airframe",
+    "raw": "@owczar/dashboard-style--airframe@^0.1.13",
+    "rawSpec": "^0.1.13",
+    "scope": "@owczar",
+    "spec": ">=0.1.13 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@owczar/dashboard-style--airframe/-/dashboard-style--airframe-0.1.23.tgz",
+  "_shasum": "c477469748a62a97ad2f8feeeda14a93ce50e394",
+  "_shrinkwrap": null,
+  "_spec": "@owczar/dashboard-style--airframe@^0.1.13",
+  "_where": "/home/parsa/term6/edu/airframe-react",
+  "author": {
+    "name": "webkom.co"
+  },
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "faker": "git+https://github.com/Marak/faker.js.git",
+    "highcharts": "^7.1.2",
+    "url-join": "^4.0.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "gulp-replace": "^1.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 87,
+    "integrity": "sha512-cTY/9+rloQepwVx0CsKm9+//4H6qJA7QNzPv5WrGoO1iRV8vKqpMg8E3v+Gn2JCfpv9tqsMAd1C//hxVbcGRSQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdhJtvCRA9TVsSAnZWagAAXCQP/1M41XWob1vgqx63ayKq\n9lJEo4ZbHF4H1v2oME5rABwEtUxUXlHdUoO1OPMBbxAtio6U6QxAX3/6XNzH\nnHKrqAoSQxFkoOcuEG8hjN3yvIYr1JSvjl07RMarGnBBZjLNpVxVNDWV4yVl\nDiFJ+QqO6CAu0OJ7lU4zzeAsfn5J/l332P52ie6YB3b2CKLMUHfLuHfbzqzx\nPACikkj5tumqaDOhF5gPWhwLaZk4FQvC25ajtzzQxJSLBlyIHZ9kNY3JkNlu\nfGgaYHKmwOPoWlxQxTInMosmq591iG/+4zlYQ8GTIxLRL5T82mUiasQEeigE\nwNitfMj0pdJch1eaCPONj1zFr0uGV3zNGPZ8Ncm0b8J4UsLtlfNTjM6ijuqg\nftCg3kAIYkkNRiB5Bj1GJc3dH0pe53rrEqs60aebPag+uV/ZtC+xTw2awttJ\nyJeUExjFVVfeEECBQrOhyhBP+kgVX9xMcpTWQ2pFIBZqWuWFfnWG3AH4aQT8\n34oswtTdEBFMD/l1xo+IzVbRLCJiCwUGjZkJlRXUZt5PansEBxJDD4cgsroE\n3FDpG56OnhNip+3IYJr28TaWj3YTYgfw3tvdo1YbDs1KQ7XY2CJtkk9JQBaB\n3iure+R033d2WWOBl312fIlJnJ39KxX5fL0xlNyi69MKJmRbNyfAoJd/OaY3\nBR1K\r\n=JMrO\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "c477469748a62a97ad2f8feeeda14a93ce50e394",
+    "tarball": "https://registry.npmjs.org/@owczar/dashboard-style--airframe/-/dashboard-style--airframe-0.1.23.tgz",
+    "unpackedSize": 13847665
+  },
+  "license": "ISC",
+  "main": "js-modules/index.js",
+  "maintainers": [
+    {
+      "name": "owczar",
+      "email": "tomasz.owczarczyk@gmail.com"
+    }
+  ],
+  "name": "@owczar/dashboard-style--airframe",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.23"
+}

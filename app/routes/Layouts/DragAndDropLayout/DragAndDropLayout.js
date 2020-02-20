@@ -75,7 +75,7 @@ export class DragAndDropLayout extends React.Component {
                             Generate New Layout
                         </Button>
 
-                        <UncontrolledDropdown className="ml-2">
+                        <UncontrolledDropdown className="mr-2">
                             <DropdownToggle outline>
                                 Change Compaction Type:&nbsp;
                                 <strong>
@@ -83,7 +83,7 @@ export class DragAndDropLayout extends React.Component {
                                     { compactType === "vertical" && "Vertical" }
                                     { compactType === "horizontal" && "Horizontal" }
                                 </strong>
-                                <i className="fa fa-angle-down ml-2" />
+                                <i className="fa fa-angle-down mr-2" />
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem
@@ -107,14 +107,14 @@ export class DragAndDropLayout extends React.Component {
                             </DropdownMenu>
                         </UncontrolledDropdown>
 
-                        <UncontrolledDropdown className="ml-2">
+                        <UncontrolledDropdown className="mr-2">
                             <DropdownToggle outline>
                                 Layout:&nbsp;
                                 <strong>
                                     { !fluid && "Container" }
                                     { fluid && "Fluid" }
                                 </strong>
-                                <i className="fa fa-angle-down ml-2" />
+                                <i className="fa fa-angle-down mr-2" />
                             </DropdownToggle>
                             <DropdownMenu right >
                                 <DropdownItem
@@ -132,7 +132,7 @@ export class DragAndDropLayout extends React.Component {
                             </DropdownMenu>
                         </UncontrolledDropdown>
 
-                        <Button color="link" className="ml-2" onClick={ this.resetLayoutHandler }>
+                        <Button color="link" className="mr-2" onClick={ this.resetLayoutHandler }>
                             <i className="fa fa-times-circle text-danger fa-fw mr-1" />Reset
                         </Button>
                     </div>

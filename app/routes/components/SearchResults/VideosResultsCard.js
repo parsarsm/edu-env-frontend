@@ -87,7 +87,7 @@ const VideosResultsCard = () => (
                             { faker.lorem.paragraph() }
                         </div>
                         <div>
-                            { randomArray(stars) } <span className="ml-2">16 Reviews</span>
+                            { randomArray(stars) } <span className="mr-2">16 Reviews</span>
                         </div>
                         <div className="mb-2">
                             <Badge color="secondary" pill className="mr-1">
@@ -102,7 +102,7 @@ const VideosResultsCard = () => (
                         </div>
                         <div>
                             <Media>
-                                <Media left className="align-self-center mr-3">
+                                <Media left className="align-self-center ml-3">
                                     <Avatar.Image
                                         size="sm"
                                         src={ randomAvatar() }

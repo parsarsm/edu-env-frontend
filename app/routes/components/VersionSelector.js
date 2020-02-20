@@ -79,7 +79,7 @@ export class VersionSelector extends React.Component {
                         currentVersion ? (
                             render ? render(currentVersion) : (
                                 <React.Fragment>
-                                    React {currentVersion.version} <i className={`fa ${down ? "fa-angle-down" : "fa-angle-up"} ml-2`}></i>
+                                    React {currentVersion.version} <i className={`fa ${down ? "fa-angle-down" : "fa-angle-up"} mr-2`}></i>
                                     <br />
                                     <span className={ classNames('small', { 'sidebar__link--muted': sidebar }) }>
                                         { moment(currentVersion.date).format("ddd, MMM DD, YYYY h:mm:ss A") }

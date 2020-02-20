@@ -27,7 +27,7 @@ const SidebarBottomB = () => (
                 <UncontrolledButtonDropdown direction="up" className="mb-3">
                     <DropdownToggle color="link" className="btn-profile text-left pl-0 pb-0">
                             <Media>
-                                <Media left middle className="mr-3">
+                                <Media left middle className="ml-3">
                                     <Avatar.Image
                                         size="md"
                                         src={ randomAvatar() }

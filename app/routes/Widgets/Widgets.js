@@ -361,7 +361,7 @@ export const Widgets = () => (
                         </ListGroupItem>
                         <ListGroupItem action tag={ Link } to="/apps/projects/list" className="text-center">
                             View All Projects
-                            <i className="fa fa-angle-right ml-2"></i>
+                            <i className="fa fa-angle-right mr-2"></i>
                         </ListGroupItem>
                     </ListGroup>
                 </Card>
@@ -468,7 +468,7 @@ export const Widgets = () => (
                         </ListGroupItem>
                         <ListGroupItem action tag={ Link } to="/apps/tasks/list" className="text-center">
                             View All Tasks
-                            <i className="fa fa-angle-right ml-2"></i>
+                            <i className="fa fa-angle-right mr-2"></i>
                         </ListGroupItem>
                     </ListGroup>
                 </Card>
@@ -521,7 +521,7 @@ export const Widgets = () => (
                     <ListGroup flush>
                         <ListGroupItem action tag={ Link } to="/pages/timeline" className="text-center">
                             Timeline Details
-                            <i className="fa fa-angle-right ml-2"></i>
+                            <i className="fa fa-angle-right mr-2"></i>
                         </ListGroupItem>
                     </ListGroup>
                 </Card>
@@ -726,9 +726,9 @@ export const Widgets = () => (
                             </div>
                             <span className="ml-auto text-right">
                                 Goal:
-                                <UncontrolledButtonDropdown className="ml-2">
+                                <UncontrolledButtonDropdown className="mr-2">
                                     <DropdownToggle color="link" className="text-decoration-none">
-                                        All<i className="fa fa-angle-down ml-2" />
+                                        All<i className="fa fa-angle-down mr-2" />
                                     </DropdownToggle>
                                     <DropdownMenu right>
                                         <DropdownItem header>Select Goal:</DropdownItem>

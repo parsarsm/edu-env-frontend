@@ -338,7 +338,7 @@ export default class AgGridExample extends React.Component {
                     <CardHeader tag="h6" className="d-flex justify-content-between align-items-center bg-white bb-0">
                         <span>AgGrid Example</span>
                         <div className="d-flex align-items-center">
-                            <span className="mr-3 text-nowrap small">
+                            <span className="ml-3 text-nowrap small">
                                 { visibleCount } / { rowData.length }
                             </span>
 

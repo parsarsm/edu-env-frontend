@@ -106,7 +106,7 @@ export class DatePickerExamples extends React.Component {
                                             />
 
                                             <DatePicker
-                                                className="ml-2"
+                                                className="mr-2"
                                                 customInput={ <AddonInput /> }
                                                 selected={this.state.endDate}
                                                 selectsEnd

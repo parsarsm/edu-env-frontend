@@ -14,7 +14,7 @@ const ChatCardHeader = () => (
     </h6>
     <UncontrolledButtonDropdown className="align-self-center ml-auto">
     <DropdownToggle color="link" size="sm" className="text-decoration-none">
-        <i className="fa fa-gear"></i><i className="fa fa-angle-down ml-2"></i>
+        <i className="fa fa-gear"></i><i className="fa fa-angle-down mr-2"></i>
     </DropdownToggle>
     <DropdownMenu right>
         <DropdownItem>

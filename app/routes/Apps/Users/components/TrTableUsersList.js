@@ -97,7 +97,7 @@ const TrTableUsersList = (props) => {
              </td>
                 <td>
                     <Media>
-                        <Media left className="d-flex align-self-center mr-3">
+                        <Media left className="d-flex align-self-center ml-3">
                             <Avatar.Image
                                 size="md"
                                 src={ randomAvatar() }
@@ -131,7 +131,7 @@ const TrTableUsersList = (props) => {
                 <td className="align-middle text-right">
                     <UncontrolledButtonDropdown>
                         <DropdownToggle color="link" className="pr-0">
-                            <i className="fa fa-bars"></i><i className="fa fa-angle-down ml-2" />
+                            <i className="fa fa-bars"></i><i className="fa fa-angle-down mr-2" />
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem>

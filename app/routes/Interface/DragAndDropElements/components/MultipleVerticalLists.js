@@ -138,7 +138,7 @@ class Column extends React.Component {
                         <Card className="h-100">
                             <CardHeader {...provided.dragHandleProps} className="b-0 bg-none">
                                 <CardTitle className="h6 mb-0">
-                                    <i className="fa fa-ellipsis-v mr-3 text-muted" />
+                                    <i className="fa fa-ellipsis-v ml-3 text-muted" />
                                     { title }
                                 </CardTitle>
                             </CardHeader>

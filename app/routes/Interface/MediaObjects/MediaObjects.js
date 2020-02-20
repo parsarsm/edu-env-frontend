@@ -564,7 +564,7 @@ const MediaObjects = () => (
                                 </span>
                             </CardTitle>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-stack-2x text-success"></i>
                                         <i className="fa fa-check fa-stack-1x text-white"></i>
@@ -580,7 +580,7 @@ const MediaObjects = () => (
                                 </Media>
                             </Media>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-stack-2x text-danger"></i>
                                         <i className="fa fa-close fa-stack-1x text-white"></i>
@@ -596,7 +596,7 @@ const MediaObjects = () => (
                                 </Media>
                             </Media>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-stack-2x text-warning"></i>
                                         <i className="fa fa-exclamation fa-stack-1x text-white"></i>
@@ -622,7 +622,7 @@ const MediaObjects = () => (
                                 </span>
                             </CardTitle>
                             <Media>
-                                <Media left className="mr-3">
+                                <Media left className="ml-3">
                                     <CustomInput type="radio" id="leftRadio1" name="leftRadio" label="" defaultChecked />
                                 </Media>
                                 <Media body>
@@ -635,7 +635,7 @@ const MediaObjects = () => (
                                 </Media>
                             </Media>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <CustomInput type="radio" id="leftRadio2" name="leftRadio" label="" />
                                 </Media>
                                 <Media body>
@@ -648,7 +648,7 @@ const MediaObjects = () => (
                                 </Media>
                             </Media>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <CustomInput type="radio" id="leftRadio3" name="leftRadio" label="" />
                                 </Media>
                                 <Media body>
@@ -1086,7 +1086,7 @@ const MediaObjects = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <i className="fa fa-user"></i>
                                 </Media>
                             </Media>
@@ -1117,7 +1117,7 @@ const MediaObjects = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <i className="fa fa-gear"></i>
                                 </Media>
                             </Media>
@@ -1148,7 +1148,7 @@ const MediaObjects = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <i className="fa fa-exclamation-circle"></i>
                                 </Media>
                             </Media>
@@ -1189,7 +1189,7 @@ const MediaObjects = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <Button outline color="secondary" size="sm">
                                         <i className="fa fa-user fa-fw"></i>
                                     </Button>{' '}
@@ -1222,7 +1222,7 @@ const MediaObjects = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <Button outline color="secondary" size="sm">
                                         <i className="fa fa-gear fa-fw"></i>
                                     </Button>{' '}
@@ -1255,7 +1255,7 @@ const MediaObjects = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <Button outline color="secondary" size="sm">
                                         <i className="fa fa-exclamation-circle fa-fw"></i>
                                     </Button>{' '}
@@ -1272,7 +1272,7 @@ const MediaObjects = () => (
                                 </span>
                             </CardTitle>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <i className="fa fa-file-pdf-o fa-fw fa-lg text-danger"></i>
                                 </Media>
                                 <Media body>
@@ -1285,7 +1285,7 @@ const MediaObjects = () => (
                                 </Media>
                             </Media>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <i className="fa fa-file-word-o fa-fw fa-lg text-primary"></i>
                                 </Media>
                                 <Media body>
@@ -1298,7 +1298,7 @@ const MediaObjects = () => (
                                 </Media>
                             </Media>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <i className="fa fa-file-excel-o fa-fw fa-lg text-success"></i>
                                 </Media>
                                 <Media body>
@@ -1321,7 +1321,7 @@ const MediaObjects = () => (
                                 </span>
                             </CardTitle>
                             <Media>
-                                <Media left className="mr-3">
+                                <Media left className="ml-3">
                                     <CustomInput type="checkbox" id="leftCheckbox1" label="" defaultChecked />
                                 </Media>
                                 <Media body>
@@ -1334,7 +1334,7 @@ const MediaObjects = () => (
                                 </Media>
                             </Media>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <CustomInput type="checkbox" id="leftCheckbox2" name="leftRadio" label="" />
                                 </Media>
                                 <Media body>
@@ -1347,7 +1347,7 @@ const MediaObjects = () => (
                                 </Media>
                             </Media>
                             <Media>
-                                <Media left top className="mr-3">
+                                <Media left top className="ml-3">
                                     <CustomInput type="checkbox" id="leftCheckbox3" name="leftRadio" label="" />
                                 </Media>
                                 <Media body>

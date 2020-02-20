@@ -47,7 +47,7 @@ const ImagesResultsCard = () => (
                     </a>
                 </div>
                 <Media>
-                    <Media left className="align-self-center mr-3">
+                    <Media left className="align-self-center ml-3">
                         <Avatar.Image
                             size="md"
                             src={ randomAvatar() }
@@ -76,7 +76,7 @@ const ImagesResultsCard = () => (
                 </Media>
             </CardBody>
             <CardFooter className="bt-0">
-                <span className="mr-3">
+                <span className="ml-3">
                     <i className="fa fa-eye mr-1"></i> <span className="text-inverse">233</span> 
                 </span>
                 <span>

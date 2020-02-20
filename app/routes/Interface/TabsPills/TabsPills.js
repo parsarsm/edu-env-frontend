@@ -584,19 +584,19 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" active>
                                         Profile
-                                        <i className="fa fa-fw fa-user ml-2"></i>
+                                        <i className="fa fa-fw fa-user mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#">
                                         Settings
-                                        <i className="fa fa-fw fa-gear ml-2"></i>
+                                        <i className="fa fa-fw fa-gear mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#" disabled>
                                         Logout
-                                        <i className="fa fa-fw fa-sign-out ml-2"></i>
+                                        <i className="fa fa-fw fa-sign-out mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                             </Nav>
@@ -686,19 +686,19 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" active>
                                         Profile
-                                        <i className="fa fa-fw fa-user ml-2"></i>
+                                        <i className="fa fa-fw fa-user mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#">
                                         Settings
-                                        <i className="fa fa-fw fa-gear ml-2"></i>
+                                        <i className="fa fa-fw fa-gear mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#" disabled>
                                         Logout
-                                        <i className="fa fa-fw fa-sign-out ml-2"></i>
+                                        <i className="fa fa-fw fa-sign-out mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                             </Nav>
@@ -753,19 +753,19 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" active>
                                         Profile
-                                        <Badge color="secondary" pill className="align-self-center ml-2">3</Badge>
+                                        <Badge color="secondary" pill className="align-self-center mr-2">3</Badge>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#">
                                         Settings
-                                        <Badge color="secondary" pill className="align-self-center ml-2">9</Badge>
+                                        <Badge color="secondary" pill className="align-self-center mr-2">9</Badge>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#" disabled>
                                         Logout
-                                        <Badge color="secondary" pill className="align-self-center ml-2">87</Badge>
+                                        <Badge color="secondary" pill className="align-self-center mr-2">87</Badge>
                                     </NavLink>
                                 </NavItem>
                             </Nav>
@@ -942,7 +942,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" active>
                                         Profile
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             $3,2K
                                         </Badge>
                                     </NavLink>
@@ -950,7 +950,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#">
                                         Settings
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             $821
                                         </Badge>
                                     </NavLink>
@@ -958,7 +958,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" disabled>
                                         Logout
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             $23
                                         </Badge>
                                     </NavLink>
@@ -983,7 +983,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" active>
                                         Profile
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             1
                                         </Badge>
                                     </NavLink>
@@ -991,7 +991,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#">
                                         Settings
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             0
                                         </Badge>
                                     </NavLink>
@@ -999,7 +999,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" disabled>
                                         Logout
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             2
                                         </Badge>
                                     </NavLink>
@@ -1237,19 +1237,19 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" active>
                                         Profile
-                                        <i className="fa fa-fw fa-user ml-2"></i>
+                                        <i className="fa fa-fw fa-user mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#">
                                         Settings
-                                        <i className="fa fa-fw fa-gear ml-2"></i>
+                                        <i className="fa fa-fw fa-gear mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#" disabled>
                                         Logout
-                                        <i className="fa fa-fw fa-sign-out ml-2"></i>
+                                        <i className="fa fa-fw fa-sign-out mr-2"></i>
                                     </NavLink>
                                 </NavItem>
                             </Nav>
@@ -1341,19 +1341,19 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" active>
                                         Profile
-                                        <Badge color="secondary" pill className="align-self-center ml-2">3</Badge>
+                                        <Badge color="secondary" pill className="align-self-center mr-2">3</Badge>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#">
                                         Settings
-                                        <Badge color="secondary" pill className="align-self-center ml-2">9</Badge>
+                                        <Badge color="secondary" pill className="align-self-center mr-2">9</Badge>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#" disabled>
                                         Logout
-                                        <Badge color="secondary" pill className="align-self-center ml-2">87</Badge>
+                                        <Badge color="secondary" pill className="align-self-center mr-2">87</Badge>
                                     </NavLink>
                                 </NavItem>
                             </Nav>
@@ -1443,7 +1443,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" active>
                                         Profile
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             Added
                                         </Badge>
                                     </NavLink>
@@ -1451,7 +1451,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#">
                                         Settings
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             Query
                                         </Badge>
                                     </NavLink>
@@ -1459,7 +1459,7 @@ const TabsPills = () => (
                                 <NavItem>
                                     <NavLink href="#" disabled>
                                         Logout
-                                        <Badge color="secondary" className="align-self-center ml-2">
+                                        <Badge color="secondary" className="align-self-center mr-2">
                                             Ready
                                         </Badge>
                                     </NavLink>

@@ -46,7 +46,7 @@ const TrTableDefault = (props) => (
                     </td>
                     <td className="align-middle">
                         <Media>
-                            <Media left middle className="mr-3">
+                            <Media left middle className="ml-3">
                                 <Avatar.Image
                                     size="md"
                                     src={ randomAvatar() }
@@ -89,7 +89,7 @@ const TrTableDefault = (props) => (
                     <td className="align-middle text-right">
                         <UncontrolledButtonDropdown>
                             <DropdownToggle color="link" className={` text-decoration-none ${ props.dropdownColor } `}>
-                                <i className="fa fa-gear"></i><i className="fa fa-angle-down ml-2"></i>
+                                <i className="fa fa-gear"></i><i className="fa fa-angle-down mr-2"></i>
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>

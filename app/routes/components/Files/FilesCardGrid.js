@@ -67,7 +67,7 @@ const FilesCardGrid = () => (
                         <Avatar.Image
                             size="md"
                             src={ randomAvatar() }
-                            className="mr-3"
+                            className="ml-3"
                             addOns={[
                                 <AvatarAddOn.Icon 
                                     className="fa fa-circle"
@@ -84,7 +84,7 @@ const FilesCardGrid = () => (
                         <Avatar.Image
                             size="md"
                             src={ randomAvatar() }
-                            className="mr-3"
+                            className="ml-3"
                             addOns={[
                                 <AvatarAddOn.Icon 
                                     className="fa fa-circle"
@@ -101,7 +101,7 @@ const FilesCardGrid = () => (
                         <Avatar.Image
                             size="md"
                             src={ randomAvatar() }
-                            className="mr-3"
+                            className="ml-3"
                             addOns={[
                                 <AvatarAddOn.Icon 
                                     className="fa fa-circle"
@@ -124,7 +124,7 @@ const FilesCardGrid = () => (
                         </a>
                         <UncontrolledButtonDropdown className="align-self-center ml-auto">
                             <DropdownToggle color="link" size="sm" className="pr-0">
-                                <i className="fa fa-gear" /><i className="fa fa-angle-down ml-2" />
+                                <i className="fa fa-gear" /><i className="fa fa-angle-down mr-2" />
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>

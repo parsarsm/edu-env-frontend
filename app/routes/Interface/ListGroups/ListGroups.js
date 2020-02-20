@@ -765,7 +765,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media left top className="ml-2">
+                                    <Media left top className="mr-2">
                                         <Button outline color="secondary" size="sm">
                                             <i className="fa fa-user fa-fw"></i>
                                         </Button>{' '}
@@ -800,7 +800,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media left top className="ml-2">
+                                    <Media left top className="mr-2">
                                         <Button outline color="secondary" size="sm">
                                             <i className="fa fa-gear fa-fw"></i>
                                         </Button>{' '}
@@ -835,7 +835,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media left top className="ml-2">
+                                    <Media left top className="mr-2">
                                         <Button outline color="secondary" size="sm">
                                             <i className="fa fa-exclamation-circle fa-fw"></i>
                                         </Button>{' '}
@@ -856,7 +856,7 @@ const ListGroups = () => (
                         <ListGroup>
                             <ListGroupItem tag="button" action href="#">
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <i className="fa fa-file-pdf-o fa-fw fa-lg text-danger"></i>
                                     </Media>
                                     <Media body>
@@ -871,7 +871,7 @@ const ListGroups = () => (
                             </ListGroupItem>
                             <ListGroupItem  tag="button" action href="#">
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <i className="fa fa-file-word-o fa-fw fa-lg text-primary"></i>
                                     </Media>
                                     <Media body>
@@ -886,7 +886,7 @@ const ListGroups = () => (
                             </ListGroupItem>
                             <ListGroupItem  tag="button" action href="#">
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <i className="fa fa-file-excel-o fa-fw fa-lg text-success"></i>
                                     </Media>
                                     <Media body>
@@ -1030,7 +1030,7 @@ const ListGroups = () => (
                         <ListGroup>
                             <ListGroupItem>
                                 <Media>
-                                    <Media left className="mr-3">
+                                    <Media left className="ml-3">
                                         <CustomInput type="radio" id="leftRadio1" name="leftRadio" label="" defaultChecked />
                                     </Media>
                                     <Media body>
@@ -1045,7 +1045,7 @@ const ListGroups = () => (
                             </ListGroupItem>
                             <ListGroupItem>
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <CustomInput type="radio" id="leftRadio2" name="leftRadio" label="" />
                                     </Media>
                                     <Media body>
@@ -1060,7 +1060,7 @@ const ListGroups = () => (
                             </ListGroupItem>
                             <ListGroupItem>
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <CustomInput type="radio" id="leftRadio3" name="leftRadio" label="" />
                                     </Media>
                                     <Media body>
@@ -1099,7 +1099,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media right top className="ml-2">
+                                    <Media right top className="mr-2">
                                         <Avatar.Image
                                             size="md"
                                             src={ randomAvatar() }
@@ -1129,7 +1129,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media right top className="ml-2">
+                                    <Media right top className="mr-2">
                                         <Avatar.Image
                                             size="md"
                                             src={ randomAvatar() }
@@ -1159,7 +1159,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media right top className="ml-2">
+                                    <Media right top className="mr-2">
                                         <Avatar.Image
                                             size="md"
                                             src={ randomAvatar() }
@@ -1330,7 +1330,7 @@ const ListGroups = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <i className="fa fa-user"></i>
                                 </Media>
                             </Media>
@@ -1363,7 +1363,7 @@ const ListGroups = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <i className="fa fa-gear"></i>
                                 </Media>
                             </Media>
@@ -1396,7 +1396,7 @@ const ListGroups = () => (
                                         { faker.lorem.sentence() }
                                     </p>
                                 </Media>
-                                <Media left top className="ml-2">
+                                <Media left top className="mr-2">
                                     <i className="fa fa-exclamation-circle"></i>
                                 </Media>
                             </Media>
@@ -1415,7 +1415,7 @@ const ListGroups = () => (
                         <ListGroup>
                             <ListGroupItem tag="button" action href="#">
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <span className="fa-stack fa-lg">
                                             <i className="fa fa-circle fa-stack-2x text-success"></i>
                                             <i className="fa fa-check fa-stack-1x text-white"></i>
@@ -1433,7 +1433,7 @@ const ListGroups = () => (
                             </ListGroupItem>
                             <ListGroupItem  tag="button" action href="#">
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <span className="fa-stack fa-lg">
                                             <i className="fa fa-circle fa-stack-2x text-danger"></i>
                                             <i className="fa fa-close fa-stack-1x text-white"></i>
@@ -1451,7 +1451,7 @@ const ListGroups = () => (
                             </ListGroupItem>
                             <ListGroupItem  tag="button" action href="#">
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <span className="fa-stack fa-lg">
                                             <i className="fa fa-circle fa-stack-2x text-warning"></i>
                                             <i className="fa fa-exclamation fa-stack-1x text-white"></i>
@@ -1507,7 +1507,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media right top className="ml-2">
+                                    <Media right top className="mr-2">
                                         <div>
                                             <CustomInput type="checkbox" id="rightCheckbox1" label="" defaultChecked />
                                         </div>
@@ -1542,7 +1542,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media right top className="ml-2">
+                                    <Media right top className="mr-2">
                                         <div>
                                             <CustomInput type="checkbox" id="rightCheckbox2" label="" />
                                         </div>
@@ -1577,7 +1577,7 @@ const ListGroups = () => (
                                             { faker.lorem.sentence() }
                                         </p>
                                     </Media>
-                                    <Media right top className="ml-2">
+                                    <Media right top className="mr-2">
                                         <div>
                                             <CustomInput type="checkbox" id="rightCheckbox3" label="" />
                                         </div>
@@ -1598,7 +1598,7 @@ const ListGroups = () => (
                         <ListGroup>
                             <ListGroupItem>
                                 <Media>
-                                    <Media left className="mr-3">
+                                    <Media left className="ml-3">
                                         <CustomInput className="pt-0 mt-0" type="checkbox" id="leftCheckbox1" label="" defaultChecked />
                                     </Media>
                                     <Media body>
@@ -1613,7 +1613,7 @@ const ListGroups = () => (
                             </ListGroupItem>
                             <ListGroupItem>
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <CustomInput className="pt-0 mt-0" type="checkbox" id="leftCheckbox2" name="leftRadio" label="" />
                                     </Media>
                                     <Media body>
@@ -1628,7 +1628,7 @@ const ListGroups = () => (
                             </ListGroupItem>
                             <ListGroupItem>
                                 <Media>
-                                    <Media left top className="mr-3">
+                                    <Media left top className="ml-3">
                                         <CustomInput className="pt-0 mt-0" type="checkbox" id="leftCheckbox3" name="leftRadio" label="" />
                                     </Media>
                                     <Media body>

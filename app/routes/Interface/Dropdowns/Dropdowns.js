@@ -890,7 +890,7 @@ const Dropdowns = () => (
                                     <ExtendedDropdown.Section className="text-center">
                                         <Link to="/widgets">
                                             See All Notifications
-                                            <i className="fa fa-angle-right fa-fw ml-2" />
+                                            <i className="fa fa-angle-right fa-fw mr-2" />
                                         </Link>
                                     </ExtendedDropdown.Section>
                                 </ExtendedDropdown>
@@ -950,7 +950,7 @@ const Dropdowns = () => (
                                     <ExtendedDropdown.Section className="text-center">
                                         <Link to="/apps/inbox">
                                             See All Messages
-                                            <i className="fa fa-angle-right fa-fw ml-2" />
+                                            <i className="fa fa-angle-right fa-fw mr-2" />
                                         </Link>
                                     </ExtendedDropdown.Section>
                                 </ExtendedDropdown>

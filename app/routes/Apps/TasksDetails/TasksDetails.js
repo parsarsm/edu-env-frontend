@@ -80,7 +80,7 @@ const TasksDetails = () => (
                                         <UncontrolledButtonDropdown>
                                             <DropdownToggle color="link" className="p-0 text-decoration-none">
                                                 <i className="fa fa-circle text-success mr-2"></i>
-                                                Small<i className="fa fa-angle-down ml-2" />
+                                                Small<i className="fa fa-angle-down mr-2" />
                                             </DropdownToggle>
                                             <DropdownMenu right>
                                                 <DropdownItem header>Select Priority</DropdownItem>
@@ -135,7 +135,7 @@ const TasksDetails = () => (
                             <NavItem>
                                 <NavLink href="#" className="d-flex">
                                     <Media>
-                                        <Media left middle className="mr-3 align-self-center">
+                                        <Media left middle className="ml-3 align-self-center">
                                             <Avatar.Image
                                                 size="md"
                                                 src={ randomAvatar() }
@@ -150,13 +150,13 @@ const TasksDetails = () => (
                                             </span>
                                         </Media>
                                     </Media>
-                                    <i className="fa fa-fw fa-circle text-success ml-auto align-self-center ml-2"></i>
+                                    <i className="fa fa-fw fa-circle text-success ml-auto align-self-center mr-2"></i>
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="#" className="d-flex">
                                     <Media>
-                                        <Media left middle className="mr-3 align-self-center">
+                                        <Media left middle className="ml-3 align-self-center">
                                             <Avatar.Image
                                                 size="md"
                                                 src={ randomAvatar() }
@@ -171,13 +171,13 @@ const TasksDetails = () => (
                                             </span>
                                         </Media>
                                     </Media>
-                                    <i className="fa fa-fw fa-circle text-warning ml-auto align-self-center ml-2"></i>
+                                    <i className="fa fa-fw fa-circle text-warning ml-auto align-self-center mr-2"></i>
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="#" className="d-flex">
                                     <Media>
-                                        <Media left middle className="mr-3 align-self-center">
+                                        <Media left middle className="ml-3 align-self-center">
                                             <Avatar.Image
                                                 size="md"
                                                 src={ randomAvatar() }
@@ -192,7 +192,7 @@ const TasksDetails = () => (
                                             </span>
                                         </Media>
                                     </Media>
-                                    <i className="fa fa-fw fa-circle text-danger ml-auto align-self-center ml-2"></i>
+                                    <i className="fa fa-fw fa-circle text-danger ml-auto align-self-center mr-2"></i>
                                 </NavLink>
                             </NavItem>
                             <NavItem>
@@ -247,7 +247,7 @@ const TasksDetails = () => (
                             { /* START Atachemnts */}
                             <div className="mb-4">
                                 <div className="mb-3">
-                                    <span className="small mr-3">
+                                    <span className="small ml-3">
                                         Attachments
                                     </span>
                                     <Badge pill color="secondary">
@@ -284,7 +284,7 @@ const TasksDetails = () => (
                             </div>
                             { /* END Atachemnts */}
                             <div className="mb-3">
-                                <span className="small mr-3">
+                                <span className="small ml-3">
                                     Comments
                                 </span>
                                 <Badge pill color="secondary">

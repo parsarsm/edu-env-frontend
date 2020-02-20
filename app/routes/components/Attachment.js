@@ -30,7 +30,7 @@ const Attachment = (props) => (
                     </span>
                 </div>
                 <div className="ml-md-auto flex-row-reverse flex-md-row d-flex justify-content-end mt-2 mt-md-0">
-                    <div className="text-left text-md-right mr-3">
+                    <div className="text-left text-md-right ml-3">
                         04-Oct-2012<br />
                         05:20 PM
                     </div>
