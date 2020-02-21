@@ -24,7 +24,7 @@ export const SidebarANavbar = () => (
                 </Link>
             </NavItem>
         </Nav>
-        <Nav navbar className="ml-auto">
+        <Nav navbar className="mr-auto">
             <NavbarActivityFeed />
             <NavbarMessages className="mr-2" />
             <NavbarUser className="mr-2" />

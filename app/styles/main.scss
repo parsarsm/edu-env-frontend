@@ -1,2 +1,17 @@
 //@import '~@owczar/rtl/scss/style';
 @import './rtl/scss/style';
+
+
+@font-face {
+  font-family: "IRANSans";
+  src: url("//db.onlinewebfonts.com/t/0701b94995ea29aedf5726b7ff363c52.eot");
+  src: url("//db.onlinewebfonts.com/t/0701b94995ea29aedf5726b7ff363c52.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/0701b94995ea29aedf5726b7ff363c52.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/0701b94995ea29aedf5726b7ff363c52.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/0701b94995ea29aedf5726b7ff363c52.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/0701b94995ea29aedf5726b7ff363c52.svg#IRANSansWeb") format("svg");
+}
+
+* {
+  font-family: IRANSans, serif;
+}

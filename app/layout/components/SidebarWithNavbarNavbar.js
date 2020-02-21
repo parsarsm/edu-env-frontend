@@ -15,7 +15,7 @@ import {
 import { NavbarActivityFeed } from './NavbarActivityFeed';
 import { NavbarMessages } from './NavbarMessages';
 import { NavbarUser } from './NavbarUser';
-import { LogoThemed } from './../../routes/components/LogoThemed/LogoThemed';
+import { LogoThemed } from '../../routes/template/components/LogoThemed/LogoThemed';
 
 export const SidebarWithNavbarNavbar = () => (
     <ThemeConsumer>
@@ -46,7 +46,7 @@ export const SidebarWithNavbarNavbar = () => (
                         Sidebar with Navbar
                     </h1>
 
-                    <Nav navbar className="ml-auto">
+                    <Nav navbar className="mr-auto">
                         <NavbarActivityFeed />
                         <NavbarMessages className="mr-2" />
                         <NavbarUser className="mr-2" />
@@ -94,7 +94,7 @@ export const SidebarWithNavbarNavbar = () => (
                         </Nav>
                     </UncontrolledCollapse>
 
-                    <Nav navbar pills className="ml-auto">
+                    <Nav navbar pills className="mr-auto">
                         <NavItem>
                             <NavLink tag={ NavbarToggler } id="navbar-navigation-toggler" className="b-0">
                                 <i className="fa fa-ellipsis-h fa-fw"></i>

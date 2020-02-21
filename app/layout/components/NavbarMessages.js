@@ -74,7 +74,7 @@ const NavbarMessages = (props) => (
                                         </span>
                                         
                                         <span className="ml-1 small">(23)</span>
-                                        <span className="ml-auto small">Now</span>
+                                        <span className="mr-auto small">Now</span>
                                     </span>
                                     <p className="mt-2 mb-1">
                                         { faker.lorem.sentences() }

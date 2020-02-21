@@ -8,9 +8,9 @@ import {
 
 import { SidebarMiddleNav } from './SidebarMiddleNav';
 
-import { SidebarTopA } from '../../routes/components/Sidebar/SidebarTopA'
-import { SidebarBottomA } from '../../routes/components/Sidebar/SidebarBottomA'
-import { LogoThemed } from '../../routes/components/LogoThemed/LogoThemed';
+import { SidebarTopA } from '../../routes/template/components/Sidebar/SidebarTopA'
+import { SidebarBottomA } from '../../routes/template/components/Sidebar/SidebarBottomA'
+import { LogoThemed } from '../../routes/template/components/LogoThemed/LogoThemed';
 
 export const DefaultSidebar = () => (
     <Sidebar>

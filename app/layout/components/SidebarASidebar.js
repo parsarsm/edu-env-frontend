@@ -7,8 +7,8 @@ import {
 
 import { SidebarMiddleNav } from './SidebarMiddleNav';
 
-import { SidebarTopB } from '../../routes/components/Sidebar/SidebarTopB'
-import { SidebarBottomB } from '../../routes/components/Sidebar/SidebarBottomB'
+import { SidebarTopB } from '../../routes/template/components/Sidebar/SidebarTopB'
+import { SidebarBottomB } from '../../routes/template/components/Sidebar/SidebarBottomB'
 
 export const SidebarASidebar = () => (
     <Sidebar>
