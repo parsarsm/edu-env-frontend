@@ -30,12 +30,12 @@ export const DefaultNavbar = () => (
                         <i className="fa fa-home"></i>
                     </Link>
                 </span>
-                <span className="navbar-text px-2">
-                    <i className="fa fa-angle-left"></i>
-                </span>
-                <span className="navbar-text">
-                    <Link to="/">Start</Link>
-                </span>
+                {/*<span className="navbar-text px-2">*/}
+                {/*    <i className="fa fa-angle-left"></i>*/}
+                {/*</span>*/}
+                {/*<span className="navbar-text">*/}
+                {/*    <Link to="/">Start</Link>*/}
+                {/*</span>*/}
                 <span className="navbar-text px-2">
                     <i className="fa fa-angle-left"></i>
                 </span>

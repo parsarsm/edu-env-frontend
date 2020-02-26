@@ -9,7 +9,7 @@ export const SidebarMiddleNav = () => (
             title="امور ثبت نام و ترمیم"
         >
             <SidebarMenu.Item title="اطلاعیه و راهنمای ثبت‌نام و ترمیم" to='/registration/info' exact />
-            <SidebarMenu.Item title=" لیست دروس ارایه شده دانشکده ها در ترم جاری" to='/dashboards/projects' exact />
+            <SidebarMenu.Item title=" لیست دروس ارایه شده دانشکده ها در ترم جاری" to='/registration/courseList' exact />
             <SidebarMenu.Item title="فرم مشاوره انتخاب واحد" to='/dashboards/system' exact />
             <SidebarMenu.Item title="پرداخت اینترنتی دانشجویان" to='/dashboards/monitor' exact />
         </SidebarMenu.Item>
@@ -20,7 +20,7 @@ export const SidebarMiddleNav = () => (
             title="خدمات آموزشی"
         >
             <SidebarMenu.Item title=" ثبت اطلاعات بانکی دانشجو" to='/registration/info' exact />
-            <SidebarMenu.Item title="تطبیق دروس دانشجو با چارت" to='/dashboards/projects' exact />
+            <SidebarMenu.Item title="تطبیق دروس دانشجو با چارت" to='/registration/courseList' exact />
             <SidebarMenu.Item title="کارتابل درخواست" to='/dashboards/system' exact />
             <SidebarMenu.Item title="فرم ثبت نام دانشجو" to='/dashboards/monitor' exact />
             <SidebarMenu.Item title="لیست امتحانات پایان ترم" to='/dashboards/monitor' exact />

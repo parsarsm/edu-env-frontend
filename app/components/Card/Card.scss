@@ -12,11 +12,11 @@
     }
 
     &--side-border {
-        border-left-width: 2px;
+        border-right-width: 2px;
 
         @each $name, $color in $dashboard-colors {
             &.custom-card--color-#{$name} {
-                border-left-color: $color
+                border-right-color: $color
             }
         }
     }

@@ -6,30 +6,12 @@ import {
     Card,
     CardBody,
     CardTitle,
-    CardText
 } from '../../../components/';
 
 import {HeaderMain} from "../../template/components/HeaderMain";
 import {HeaderDemo} from "../../template/components/HeaderDemo";
 import {Table} from "../../../components";
 
-const cardText = ({cardNo}) => (
-    <CardText>
-        <span className="mr-2 text-muted">
-            #{cardNo}
-        </span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl elit, porta a sapien eget, fringilla
-        sagittis ex.
-    </CardText>
-);
-
-const cardContent = (title = 'Some Card Title') => (
-    <CardBody>
-        <CardTitle>
-            {title}
-        </CardTitle>
-        {cardText}
-    </CardBody>
-);
 
 const Info = () => (
     <React.Fragment>

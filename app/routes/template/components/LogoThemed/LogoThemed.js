@@ -18,8 +18,10 @@ const logos = {
 }
 
 const getLogoUrl = (style, color) => {
-    return logos[color];
+    // return logos[color];
+    return require('../../../../images/logos/logo.svg')
 }
+
 
 // Check for background
 const getLogoUrlBackground = (style, color) => {

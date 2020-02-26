@@ -19,7 +19,7 @@
         .bb-#{$name},
         .by-#{$name} { border-bottom-color: $color !important; border-bottom-style: solid; border-bottom-width: 1px; }
         .bl-#{$name},
-        .bx-#{$name} { border-left-color: $color !important; border-left-style: solid; border-left-width: 1px; }
+        .bx-#{$name} { border-right-color: $color !important; border-left-style: solid; border-left-width: 1px; }
     }
 }
 
